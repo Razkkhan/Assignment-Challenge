@@ -50,6 +50,8 @@ body {
     background-color: transparent;
     color: #000000;
     cursor: pointer;
+    opacity: 0.7;
+
 }
 
 .navbar-right .btn-primary:hover {
@@ -99,6 +101,8 @@ body {
     font-size: 16px;
     width: 998px;
     color: #000000;
+    opacity: 0.7;
+
 }
 
 .overlay-content .btn-primary {
@@ -115,4 +119,112 @@ body {
 
 .overlay-content .btn-primary:hover {
     background-color: #333333;
+}
+
+/* banner end here */
+
+/* why web development start here */
+.Why-web {
+    width: 1140px;
+    height: 1393px;
+    border-top: 80px solid rgba(13, 19, 33, 0.02);
+    border-bottom: 80px solid rgba(13, 19, 33, 0.02);
+    border-left: 97px solid rgba(13, 19, 33, 0.02);
+    border-right: 97px solid rgba(13, 19, 33, 0.02);
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    border-radius: 10px;
+    margin-left: 340px;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.Why-web h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Why-web p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.frame-10 {
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 32px 0;
+    border: 48px solid rgba(13, 19, 33, 0.02);
+
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.text-content h4 {
+    font-size: 24px;
+    margin: 0;
+    opacity: 0.7;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text-content p {
+    margin: 0;
+    margin-top: 20px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.button {
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 12px 20px 12px 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+    font-size: 20px;
+}
+
+.image-container img {
+    width: 259.56px;
+    height: 217.01px;
 }
