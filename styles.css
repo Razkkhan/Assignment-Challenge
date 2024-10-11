@@ -522,6 +522,7 @@ body {
     border-radius: 16px;
     align-items: center;
     text-align: center;
+    padding-top: 20px;
 }
 
 .My-Next-Target {
@@ -551,13 +552,95 @@ body {
     margin: 20px 40px 40px 60px;
 }
 
+
+
+
 .My-Next-Target-Card {
     width: 1140px;
     height: 219px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
-    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding-top: 5px 5px;
+
 }
+
+.My-Next-Target-Card img {
+    width: 94.78px;
+    height: 84.41px;
+    margin-left: 10px;
+}
+
+.My-Next-Target-Card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.My-Next-Target-Card-text h2,
+.My-Next-Target-Card-text p,
+.My-Next-Target-Card-text .button-learn1 {
+    margin: 10px;
+}
+
+.My-Next-Target-Card-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    /* Space between h2 and p */
+}
+
+.My-Next-Target-Card-text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    opacity: 0.7;
+    text-align: left;
+
+
+}
+
+.row-card {
+    row-gap: 20px;
+}
+
+.My-Next-Target-Card-text .button-learn1 {
+    width: 284px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* my next target end here  */
