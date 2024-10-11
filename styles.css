@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* General Styling */
+/* Universal */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
 }
 
-/* Navbar Styling */
+/* Navbar Styling start */
 .navbar {
     width: 1440px;
     height: 652px;
@@ -41,7 +41,9 @@ body {
     margin-left: 210px;
 }
 
-/* Navbar button */
+/* Navbar Styling end */
+
+/* Navbar button start*/
 .navbar-right .btn-primary {
     position: absolute;
     width: 244px;
@@ -61,14 +63,13 @@ body {
     color: #000000;
     cursor: pointer;
     opacity: 0.7;
-
 }
 
 .navbar-right .btn-primary:hover {
     background-color: #ffffff;
 }
 
-
+/* Navbar button end*/
 /* Background Section */
 .background-section {
     width: 1440px;
@@ -82,6 +83,10 @@ body {
     align-items: center;
     position: relative;
     margin: 0 auto;
+    border-top: 2px dashed rgba(0, 0, 0, 0.2);
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+    ;
+
 }
 
 .overlay-content {
@@ -223,7 +228,6 @@ body {
     width: 100%;
 }
 
-
 .text-content {
     display: flex;
     flex-direction: column;
@@ -349,7 +353,6 @@ body {
     border: 1px solid rgba(13, 19, 33, 0.2);
     margin-top: 50px;
     margin-left: 30px;
-
 }
 
 .Inspiration2 iframe {
@@ -361,7 +364,8 @@ body {
 }
 
 /* My-Inspiration end here */
-/* My Next Target start here */
+
+/* My Current Target start here */
 .My-Target-Web {
     width: 1140px;
     height: 460px;
@@ -392,7 +396,6 @@ body {
     height: 299px;
     display: flex;
     gap: 22px;
-
 }
 
 .My-Target-Card {
@@ -404,7 +407,6 @@ body {
     padding: 10px;
     border-radius: 16px;
     background-color: rgba(255, 76, 30, 0.05);
-
 }
 
 .My-Target-Card1 {
@@ -416,7 +418,6 @@ body {
     padding: 10px;
     border-radius: 16px;
     background-color: rgba(0, 76, 232, 0.05);
-
 }
 
 .My-Target-Card1 img {
@@ -478,7 +479,6 @@ body {
     padding: 10px;
     border-radius: 16px;
     background-color: rgba(255, 223, 0, 0.05);
-
 }
 
 .My-Target-Card img {
@@ -520,6 +520,8 @@ body {
     cursor: pointer;
     margin-top: 30px;
 }
+
+/* My current Target end here */
 
 /* my next target start here  */
 .Next-Target {
@@ -564,9 +566,6 @@ body {
     margin: 20px 40px 40px 60px;
 }
 
-
-
-
 .My-Next-Target-Card {
     width: 1140px;
     height: 219px;
@@ -576,7 +575,6 @@ body {
     display: flex;
     align-items: center;
     padding-top: 5px 5px;
-
 }
 
 .My-Next-Target-Card img {
@@ -610,8 +608,6 @@ body {
     margin-bottom: 15px;
     opacity: 0.7;
     text-align: left;
-
-
 }
 
 .row-card {
@@ -634,7 +630,6 @@ body {
 }
 
 /* need support start here */
-/* need support end here */
 .need-support {
     width: 1140px;
     height: 313px;
@@ -651,7 +646,6 @@ body {
     margin: 10px 342px;
     border-radius: 8px;
     opacity: 0.9;
-
 }
 
 .need-support-card {
@@ -670,6 +664,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
     color: #ffffff;
+    opacity: 1;
 }
 
 .need-support-card p {
@@ -686,9 +681,7 @@ body {
     display: flex;
     gap: 10px;
     align-items: flex-start;
-    /* Button এবং Textarea উপরে রাখতে */
     justify-content: flex-start;
-    /* এক লাইনে রাখতে */
     margin-left: 20px;
     border: 19px 20px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
@@ -721,6 +714,7 @@ body {
     text-align: center;
 }
 
+/* need support end here */
 
 /* footer start */
 .footer-container {
@@ -763,3 +757,5 @@ body {
     z-index: 1;
     display: block;
 }
+
+/* footer end */
